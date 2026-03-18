@@ -3,6 +3,10 @@
 ## Project Overview
 This project demonstrates a complete data lifecycle, from designing a relational database in **SQL Server** to implementing automated **ETL processes** and generating business insights through an interactive **Sales Dashboard**. It focuses on analyzing global sales performance (EU and Non-EU regions) for the year 2023.
 
+## Dashboards preview
+![dashboard1](docs/dashboard-pag1.png)
+![dashboard1](docs/dashboard-pag2.png)
+
 ## 🛠️ Tech Stack
 * **Database Management:** SQL Server (T-SQL)
 * **ETL Automation:** Stored Procedures & Bulk Insert
@@ -15,6 +19,7 @@ The `DataSales` database follows a structured approach using a **Gold Schema** t
 * **Fact Tables:** `eu_orders`, `non_eu_orders` (Central transaction data)
 * **Dimension Tables:** Customers, Locations, and Products (Contextual data)
 
+## Eu Tables
 ![tables](docs/table-diagram.png)
 
 ### Automated ETL Pipeline
