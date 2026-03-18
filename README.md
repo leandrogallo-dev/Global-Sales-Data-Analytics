@@ -15,6 +15,8 @@ The `DataSales` database follows a structured approach using a **Gold Schema** t
 * **Fact Tables:** `eu_orders`, `non_eu_orders` (Central transaction data)
 * **Dimension Tables:** Customers, Locations, and Products (Contextual data)
 
+![tables](docs/table-diagram.png)
+
 ### Automated ETL Pipeline
 I developed a robust stored procedure, `gold.usp_BulkInsertData`, to streamline the data ingestion process. This pipeline features:
 * **Transaction Management:** Ensures data integrity by rolling back if errors occur.
